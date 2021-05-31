@@ -14,7 +14,7 @@ console.log(productos)
         <h1 className="title"> PRODUCTOS</h1>
         <div className="productos">
             {
-                productos.map(producto =>(
+                productos.map((producto) =>(
                  <ProductoItem
                   key={producto.id}
                   id={producto.id}
@@ -24,10 +24,7 @@ console.log(productos)
                   category={producto.category}
                   cantidad={producto.cantidad}
             />
-                ))
-            }
-        
-        
+                ))}
         </div>
         </>
     );

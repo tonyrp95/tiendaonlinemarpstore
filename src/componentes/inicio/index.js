@@ -11,9 +11,16 @@ export const inicio = () => {
             <Link to="/productos">
             <h1 >Productos</h1>
             </Link>
+            <Link to="/Nosotros">
+            <h1 >Nosotros</h1>
+            </Link>
+            <Link to="/Politicas">
+            <h1 >Políticas</h1>
+            </Link>
             <Link to="/sesion">
             <h1 >Inicio de sesion</h1>
             </Link>
+            
             <img src={Portada} alt="inicio"/>
         </div>
     )
