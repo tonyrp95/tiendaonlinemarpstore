@@ -51,6 +51,7 @@ header ul{
   display: flex;
   padding: 0;
   margin: 0;
+  
 }
 header ul li {
   padding: 0 1rem;
@@ -93,7 +94,7 @@ header .cart span{
   color: #08a05c;
 }
 .inicio img{
-  width: 100%;
+ width: 100%;
 }
 
 /*----------------PRODUCTOS-------*/
@@ -322,6 +323,10 @@ letter-spacing: 1px;
   margin: auto;
   width: 40%;
 }
+.buscar{
+  width: 100%;
+}
+
 /*-------SESION------*/
 
 /*------------Detalles Productos-----*/
